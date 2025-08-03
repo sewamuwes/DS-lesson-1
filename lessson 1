@@ -1,0 +1,8 @@
+Printing text to the console
+print("Hello, Class!".upper())
+print("Simon Sewamuwe is my name.".upper())
+print("-" * 10)  # A simple way to create a separator line
+print("Welcome to this session".upper())
+print("we shall cover an introduction to google colab.".upper())
+print("-" * 10)
+
