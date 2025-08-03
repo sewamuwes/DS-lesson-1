@@ -1,0 +1,110 @@
+Sirname=input("Enter Sirname:")
+Firstname=input("Enter Firstname:")
+
+while True:
+    age_input = input("Enter Age: ")
+    try:
+        Age = int(age_input)
+        break  # Exit the loop if the input is a valid integer
+    except ValueError:
+        print("Invalid input. Please enter a whole number for age.")
+
+print("Fullname " + Sirname + " " + Firstname)
+print("Age: " + str(Age))
+# Get integer input from the user for variables 'a' and 'b'
+a = int(input("Enter a value of a "))
+b = int(input("Enter a value of b "))
+
+# Perform arithmetic operations
+c = a + b  # Calculate the sum of a and b
+d = a * b  # Calculate the product of a and b
+e = b / a  # Calculate the quotient of b divided by a
+f = a - b  # Calculate the difference between a and b
+
+# Calculate the area (assuming a and b are length and width)
+Area = a * b
+
+# Print the results of the calculations
+print("The sum of a and b is" + str(c))
+print("The product of a and b is " .casefold() + str(d))
+print("the quotient of a and b is " .capitalize() + str(e))
+print("The difference of a and b is ".upper() + str(f))
+print("The area is " + str(Area))
+
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old." .upper())
+
+# You can also include expressions
+rent = 150000
+months = 12
+print(f"The total cost of rent per year is ugx {rent * months}" .upper())
+
+# Creating a list of integers
+numbers = [1, 2, 3, 4, 5]
+print("List of numbers:", numbers)
+
+# Creating a list of strings
+fruits = ["apple", "banana", "cherry"]
+print("List of fruits:", fruits)
+
+# Creating a mixed-type list
+mixed_list = [1, "hello", 3.14, True]
+print("Mixed list:", mixed_list)
+
+# Accessing elements in a list (using index)
+print("First fruit:", fruits[0]) # Index starts at 0
+print("Last number:", numbers[-1]) # Negative index accesses from the end
+
+# Modifying elements in a list
+fruits[1] = "blueberry"
+print("Modified fruits list:", fruits)
+
+# Adding elements to a list
+fruits.extend(["orange" , "fene"]) # Add multiple items using extend
+fruits.insert(1, "grape") # Insert at a specific index
+print("Fruits after adding elements:", fruits)
+
+# Removing elements from a list
+fruits.remove("blueberry") # Remove by value
+numbers.pop(2) # Remove by index (removes the item at index 2)
+print("Fruits after removing blueberry:", fruits)
+print("Numbers after removing element at index 2:", numbers)
+
+# Creating a list of cars
+cars = ["Toyota", "Honda", "Ford", "Chevrolet", "BMW"]
+print("Original list of cars:", cars)
+
+# Using append to add a car
+cars.append("Audi")
+print("List after appending Audi:", cars)
+
+cars.extend(["spacio", "Tx"]) # Extend with a list containing multiple items
+print("List after extending with spacio and tx:", cars)
+
+# Using len() to find the length of the list
+num_cars = len(cars)
+print("Number of cars in the list:", num_cars)
+
+# Using sort() to sort the list alphabetically
+cars.sort()
+print("Sorted list of cars:", cars)
+
+# Accessing elements using indexing
+print("First car:", cars[0]) # Accessing the first element (index 0)
+print("Third car:", cars[2]) # Accessing the third element (index 2)
+print("Last car:", cars[-1]) # Accessing the last element (index -1)
+print("Second to last car:", cars[-2]) # Accessing the second to last element (index -2)
+
+my_list = [1, 2, 3]
+print("Original list:", my_list)
+
+# Using extend() to add multiple items from another list
+another_list = [4, 5, 6]
+my_list.extend(another_list)
+print("List after extending:", my_list)
+
+# You can also extend with other iterables like tuples
+my_tuple = (7, 8)
+my_list.extend(my_tuple)
+print("List after extending with a tuple:", my_list)
